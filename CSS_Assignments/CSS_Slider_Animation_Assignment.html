@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slider_Animation</title>
+    <link rel="stylesheet" href="src/assets/css/normalize.css">
+    <style>
+        section{
+            width: 400vw;
+            height: 100vh;
+            display: flex;
+            animation-name: slider;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-delay: 1s;
+        }
+        div{
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        img{
+            width: 100vw;
+            height: 100vh;
+        }
+        @keyframes slider{
+            0% {
+                margin-left: 0px;
+            }
+            25%{
+                margin-left: -100vw;
+            }
+            50%{
+                margin-left: -200vw;
+            }
+            75%{
+                margin-left: -300vw;
+            }
+            100%{
+                margin-left: -400vw;
+            }
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div>
+        <img src="assets/img/137022.jpg">
+    </div>
+    <div>
+        <img src="assets/img/622266.jpg">
+    </div>
+    <div>
+        <img src="assets/img/640475.jpg">
+    </div>
+    <div>
+        <img src="assets/img/yiPO1q.png">
+    </div>
+    <div>
+        <img src="assets/img/samoa-wallpapers-36938-1474172.png">
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sticky_Position</title>
+    <link rel="stylesheet" href="src/assets/css/normalize.css">
+    <style>
+        body>section:nth-child(1){
+            height: 100vh;
+            color: white;
+        }
+        body>section:nth-child(2){
+            height: 100vh;
+            background: lightblue;
+        }
+        body>section:nth-child(3){
+            height: 100vh;
+            background: gray;
+        }
+        body>section:nth-child(4){
+            height: 100vh;
+            background: magenta;
+        }
+        body>section>div{
+            width: 100vw;
+            height: 50px;
+            background: lightgreen;
+            position:sticky;
+            top: 0;
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+            padding-top: 30px;
+        }
+        h1{
+            color: black;
+            font-size: 100px;
+            margin-top: 10vw;
+            text-align: center;
+        }
+        body>section:nth-child(2)>div{
+            background:darkblue ;
+        }
+        body>section:nth-child(3)>div{
+            background:black ;
+        }
+        body>section:nth-child(4)>div{
+            background: darkmagenta;
+        }
+
+
+    </style>
+</head>
+<body>
+<section>
+    <div>Card 01</div>
+    <h1>Hello</h1>
+</section>
+<section>
+    <div>Card 02</div>
+    <h1>How</h1>
+</section>
+<section>
+    <div>Card 03</div>
+    <h1>Are</h1>
+</section>
+<section>
+    <div>Card 04</div>
+    <h1>You..?</h1>
+</section>
+</body>
+</html>

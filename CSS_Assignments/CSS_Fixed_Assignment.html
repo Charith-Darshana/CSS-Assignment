@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fixed</title>
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <style>
+        body>section:nth-child(1){
+            height: 100vh;
+            color: white;
+        }
+        body>section:nth-child(1)>div{
+            width: 280px;
+            height: 280px;
+            background: blue;
+            border-radius: 160px;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        body>section:nth-child(2){
+            height: 100vh;
+            background: white;
+        }
+        body>section:nth-child(2)>div{
+            width: 280px;
+            height: 280px;
+            background: greenyellow;
+            border-radius: 160px;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        body>section:nth-child(3){
+            height: 100vh;
+            background: white;
+        }
+        h1{
+            font-size: 40px;
+            text-align: center;
+            color: white;
+            margin: auto;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        body>section:nth-child(3)>div:nth-child(1){
+            width: 280px;
+            height: 280px;
+            background: orange;
+            border-radius: 160px;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        body>section:nth-child(3)>div:nth-child(2){
+            width: 280px;
+            height: 280px;
+            border: 30px solid red;
+            border-radius: 170px;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        body>section:nth-child(3)>div:nth-child(3){
+            width: 332px;
+            height: 334px;
+            border: 30px solid black;
+            border-radius: 187px;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div>
+        <h1>Hello</h1>
+    </div>
+</section>
+<section>
+    <div>
+        <h1>Welcome To</h1>
+    </div>
+</section>
+<section>
+    <div>
+        <h1>Institute of Software Engineering</h1>
+    </div>
+    <div></div>
+    <div></div>
+</section>
+</body>
+</html>

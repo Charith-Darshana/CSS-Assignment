@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Absolute_Position </title>
+    <link rel="stylesheet" href="src/assets/css/normalize.css">
+    <style>
+        section:nth-child(1){
+            width : 600px;
+            height : 300px;
+            display :inline-block;
+            background : red;
+
+        }
+
+        section:nth-child(2){
+            width : 600px;
+            height : 300px;
+            display :inline-block;
+            background : orange;
+
+        }
+
+        section:nth-child(3){
+            width : 600px;
+            height : 300px;
+            display :inline-block;
+            background : blue;
+        }
+
+        section:nth-child(4){
+            width : 600px;
+            height : 300px;
+            display :inline-block;
+            background : green;
+        }
+
+        section:nth-child(1)>div:nth-child(1){
+            background:white;
+            width:160px;
+            height:160px;
+            border-radius:75px;
+            position:relative;
+            bottom:88px;
+            right:85px;
+        }
+
+        section:nth-child(1)>div:nth-child(2){
+            background: white;
+            width: 129px;
+            height: 118px;
+            position: relative;
+            left: 239px;
+            bottom: 66px;
+            border-radius:100px;
+        }
+
+        section:nth-child(1)>div:nth-child(3){
+            background: red;
+            width: 64px;
+            height: 61px;
+            position: relative;
+            left: 272px;
+            bottom: 154px;
+        }
+
+        section:nth-child(2)>div:nth-child(1){
+            background:white;
+            width:150px;
+            height:150px;
+            border-radius:75px;
+            position:relative;
+            bottom:88px;
+            right:75px;
+        }
+
+        section:nth-child(2)>div:nth-child(2){
+            background: white;
+            width: 129px;
+            height: 118px;
+            position: relative;
+            left: 239px;
+            bottom: 66px;
+            border-radius:100px;
+        }
+
+        section:nth-child(2)>div:nth-child(3){
+            background: orange;
+            width: 64px;
+            height: 61px;
+            position: relative;
+            left: 272px;
+            bottom: 154px;
+        }
+
+        section:nth-child(2)>div:nth-child(4){
+            background:white;
+            width:160px;
+            height:160px;
+            border-radius:75px;
+            position:relative;
+            bottom:410px;
+            left :520px;
+        }
+
+        section:nth-child(3)>div:nth-child(1){
+            background:white;
+            width:150px;
+            height:150px;
+            border-radius:75px;
+            position:relative;
+            bottom:-220px;
+            left  :-80px;
+        }
+
+        section:nth-child(3)>div:nth-child(2){
+            background: white;
+            width: 129px;
+            height: 118px;
+            position: relative;
+            left: 239px;
+            bottom: 66px;
+            border-radius:100px;
+        }
+
+        section:nth-child(3)>div:nth-child(3){
+            background: blue;
+            width: 64px;
+            height: 61px;
+            position: relative;
+            left : 272px;
+            bottom: 154px;
+
+        }
+
+        section:nth-child(3)>div:nth-child(4){
+            background:white;
+            width:160px;
+            height:160px;
+            border-radius:75px;
+            position:relative;
+            bottom:100px;
+            left :520px;
+        }
+
+        section:nth-child(4)>div:nth-child(1){
+            background:white;
+            width:160px;
+            height:160px;
+            position:relative;
+            bottom:88px;
+            right:85px;
+        }
+
+        section:nth-child(4)>div:nth-child(2){
+            background: white;
+            width: 129px;
+            height: 118px;
+            position: relative;
+            left: 239px;
+            bottom: 66px;
+            border-radius:100px;
+        }
+
+        section:nth-child(4)>div:nth-child(3){
+            background: green;
+            width: 64px;
+            height: 61px;
+            position: relative;
+            left: 272px;
+            bottom: 154px;
+        }
+
+        section:nth-child(4)>div:nth-child(4){
+            background:white;
+            width:160px;
+            height:160px;
+            border-radius:75px;
+            position:relative;
+            bottom:115px;
+            left :520px;
+        }
+
+        section:nth-child(4)>div:nth-child(1)>div{
+            background:red;
+            width:100px;
+            height:100px;
+            position: relative;
+            left:30px;
+            bottom:-30px;
+            border-radius:100px;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+
+<section>
+    <div>
+        <div></div>
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+</body>
+</html>
